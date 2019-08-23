@@ -1,0 +1,113 @@
+/* Element Tags */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(227, 231, 231);
+}
+
+header {
+    background: linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+    top: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Class Tags and ID Tags*/
+
+.title{
+    font-size: 1.8em;
+}
+
+#social {
+    text-align: right;
+}
+
+#social button img {
+    width: 25px;
+    height: 25px;
+}
+
+#description {
+    margin: 2em;
+    text-align: center;
+}
+
+#description h2 {
+    font-size: 1.8em;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+#nav-ctn {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 0px;
+    margin: 2em;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+#nav-arrows{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-arrows img{
+    height: 6em;
+    width: 12em;
+    background-color: rgb(227, 231, 231);
+}
+
+#info-title{
+    width: 10em;
+    text-align:center;
+}
+
+/* #nav-ctn ul li button {
+    box-shadow: 9px 6px 0px 0px #bee2f9;
+    background: linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+    background-color: #63b8ee;
+    border-radius: 6px;
+    border: 1px solid #3866a3;
+    display: inline-block;
+    cursor: pointer;
+    color: #14396a;
+    font-family: Courier New;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 8px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #7cacde;
+} */
+
+/* nav ul li {
+    margin: 2em;
+} */
+
+.no-style {
+    list-style: none;
+}
+
+.font-style {
+    font-size: 1.2em;
+}
+
+
+#slides{
+    width: 60em;
+    height: 25em;
+    justify-self: center;
+    align-items: center;
+}
