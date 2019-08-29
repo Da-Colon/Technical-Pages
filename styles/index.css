@@ -55,6 +55,7 @@ header {
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 }
 
 
@@ -62,20 +63,20 @@ header {
     display:flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 #nav-arrows img{
     height: 6em;
     width: 12em;
-    background-color: rgb(227, 231, 231);
+    background-color: rgb(227, 231, 231);       
+    background: linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+
 }
 
 #info-title{
     width: 10em;
     text-align:center;
-}
-
-/* #nav-ctn ul li button {
     box-shadow: 9px 6px 0px 0px #bee2f9;
     background: linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
     background-color: #63b8ee;
@@ -90,11 +91,8 @@ header {
     padding: 8px 24px;
     text-decoration: none;
     text-shadow: 0px 1px 0px #7cacde;
-} */
+} 
 
-/* nav ul li {
-    margin: 2em;
-} */
 
 .no-style {
     list-style: none;
@@ -106,8 +104,8 @@ header {
 
 
 #slides{
-    width: 60em;
-    height: 25em;
+    width: 100em;
+    height: 40em;
     justify-self: center;
     align-items: center;
 }

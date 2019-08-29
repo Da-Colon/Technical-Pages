@@ -1,0 +1,18 @@
+#page-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+#nav-col {
+  background-color: blue;
+  /* position: fixed; */
+  height: auto;
+  width: 16rem;
+}
+
+#main-col {
+  background-color: green;
+  height: 500px;
+  width: 300px;
+
+}

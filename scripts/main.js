@@ -5,6 +5,7 @@ images[2] = "images/css.png";
 images[3] = "images/javascript.png";
 images[4] = "images/python.png";
 images[5] = "images/react.png";
+images[6] = "images/git.png";
 
 function displayNextSlide() {
     x = (x === images.length - 1) ? 0 : x + 1;
@@ -27,7 +28,7 @@ function changeInfo(x){
         let infoTitle = document.getElementById("info-title");
         switch(x){
             case images[0]:
-            infoTitle.innerHTML = "VS Code";
+            infoTitle.innerHTML = "Visual Studio Code ";
             break;
             case images[1]:
             infoTitle.innerHTML = "HTML";
@@ -42,7 +43,13 @@ function changeInfo(x){
             infoTitle.innerHTML = "Python";
             break;
             case images[5]:
-            infoTitle.innerHTML = "React.JS";
+            infoTitle.innerHTML = "React.js";
+            break;
+            case images[6]:
+            infoTitle.innerHTML = "GIT";
+            break;
+            default:
+            infoTitle.innerHTML = "VS Code";
             break;
         }
 }
@@ -67,12 +74,8 @@ function changeLink(x){
             case images[5]:
             infoLinks.href = "techPages/react.html";
             break;
+            case images[6]:
+            infoLinks.href = "techPages/git.html";
+            break;
         }
 }
-// Change Info as an if/else statement
-// function changeInfo(x){
-//     let infoTitle = document.getElementById("info-title");
-//     if (x === images[0]) {
-//         infoTitle.innerHTML = "VS Code";
-//     }
-// }
